@@ -34,13 +34,13 @@ The service will need to have three major endpoints implemented:
 
 
 
-1. POST “/api/login” - authentication endpoint, the body of requests to this endpoint should be JSON, with an email and password, e.g.  \
-{ “email”: “admin@admin.com”, “password”: “pass” } \
+1. `POST /api/login` - authentication endpoint, the body of requests to this endpoint should be JSON, with an email and password, e.g.  \
+`{ “email”: “admin@admin.com”, “password”: “pass” }` \
 The request should respond with a cookie that can be used for subsequent requests. \
 
-2. POST “/api/sensors/upload” - this endpoint will receive data from the sensors. It should be authenticated utilizing the cookie from the login request. The CSV data will be sent in the POST body, which should then be stored in a way that allows for it to be queryable. \
+2. `POST /api/sensors/upload` - this endpoint will receive data from the sensors. It should be authenticated utilizing the cookie from the login request. The CSV data will be sent in the POST body, which should then be stored in a way that allows for it to be queryable. \
 
-3. POST “/api/sensors/search” - this endpoint will be used to retrieve data and again should be authenticated utilizing the cookie from the login request. This request can perform three key functions:
+3. `POST /api/sensors/search` - this endpoint will be used to retrieve data and again should be authenticated utilizing the cookie from the login request. This request can perform three key functions:
 * Grouping the data of a sensor
 * Filtering the data of a sensor
 * Sorting the data of a sensor

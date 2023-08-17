@@ -77,6 +77,8 @@ The following options are available for the various search keys:
 
 This assignment should be completed using Node.js, either in JavaScript or TypeScript. Latest Node versions should be used (Node 18+).
 
+All the test cases in the `test` directory should be passing on submission.
+
 If any dependencies are required these should be provided using Docker.
 
 The completed project should be returned via a Github repo which can be shared with the team. Send your completed private Github repo link to [techtest@budibase.com](mailto:techtest@budibase.com) and invite 2 users:

@@ -50,7 +50,7 @@ The request should respond with a cookie that can be used for subsequent request
 ```json
 {
   "filters": {
-    "temperature": { gte: 20 },
+    "temperature": { "gte": 20 },
   },
   "sort": {
     "column": "temperature",

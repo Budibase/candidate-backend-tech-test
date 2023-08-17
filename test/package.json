@@ -1,0 +1,14 @@
+{
+  "name": "weather-tests",
+  "version": "1.0.0",
+  "description": "Test cases for weather backend assignment",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "node-fetch": "2"
+  }
+}
